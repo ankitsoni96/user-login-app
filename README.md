@@ -11,7 +11,7 @@ Technology Used
 
 
 Steps to start server
- - npm install (To install the dependences)
+ - npm install (To install the dependencies)
  - node server.js (This command will start server on 8443 port)
 
 List of APIs
