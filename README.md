@@ -9,31 +9,26 @@ Technology Used
  - Node.js
  - MongoDB
 
-
-Steps to start server
- - npm install (To install the dependencies)
- - node server.js (This command will start server on 8443 port)
-
 List of APIs
 
  1. Register new user.
-    API    = http://localhost:8443/api/v1/register
+    API    = https://user-auth-system1.herokuapp.com/api/v1/register
     Method = POST
 
  2. Login 
-    API    = http://localhost:8443/api/v1/login
+    API    = https://user-auth-system1.herokuapp.com/api/v1/login
     Method = POST 
 
  3. Search user
-    API    = http://localhost:8443/api/v1/search
+    API    = https://user-auth-system1.herokuapp.com/api/v1/search
     Method = POST
 
  4. To get new auth_token with the help of refresh_token
-    API    = http://localhost:8443/api/v1/refreshToken
+    API    = https://user-auth-system1.herokuapp.com/api/v1/refreshToken
     Method = POST
 
  5. Logout
-    API    = http://localhost:8443/api/v1/logout
+    API    = https://user-auth-system1.herokuapp.com/api/v1/logout
     Method = GET
 
 
