@@ -11,7 +11,7 @@ module.exports = (function () {
         database:"user-system"
       }
       data.host = "localhost"
-      data.port = 8443
+      data.port = process.env.PORT || 8443
       data.passwordSalt = "WRCVSVTE56V6WC3567RTFGTU76VB45VVC567JGYBDBCE54657F34CXBHGJGK"
     } else {
         // LOCAL
@@ -19,7 +19,7 @@ module.exports = (function () {
         url:"mongodb+srv://mongo:root@cluster0.xopxo.mongodb.net/user-app"
       }
       data.host = "localhost"
-      data.port = 8443
+      data.port = process.env.PORT || 8443
     }
     return data;
   })();
